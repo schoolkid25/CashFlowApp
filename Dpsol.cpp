@@ -73,6 +73,10 @@ int minimizeTransactions(vector<int>& balances, vector<vector<int>>& transaction
     return minimizeTransactionsHelper(0, balances, transactions);
 }
 
+int minTransactionsGreedy(){
+    // TODO
+}
+
 int main() {
     int n, m;
     
